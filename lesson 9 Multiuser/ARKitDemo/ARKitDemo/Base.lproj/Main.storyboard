@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Multiuser" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r2C-XJ-vLL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mapping Status Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iwr-WI-N1W">
+                                <rect key="frame" x="104" y="496" width="167" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8PP-oU-GEA">
+                                <rect key="frame" x="130.5" y="537" width="114" height="30"/>
+                                <state key="normal" title="Send World Map"/>
+                                <connections>
+                                    <action selector="sendMapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cZ3-Yt-gLl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="r2C-XJ-vLL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="70k-cE-EmA"/>
+                            <constraint firstAttribute="bottom" secondItem="r2C-XJ-vLL" secondAttribute="bottom" id="Cse-ec-hXW"/>
+                            <constraint firstItem="8PP-oU-GEA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LG6-Gc-Rhb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8PP-oU-GEA" secondAttribute="bottom" constant="100" id="OGy-BC-2lb"/>
+                            <constraint firstItem="r2C-XJ-vLL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="TyW-O5-Ndp"/>
+                            <constraint firstItem="Iwr-WI-N1W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VUM-Th-Cba"/>
+                            <constraint firstItem="8PP-oU-GEA" firstAttribute="top" secondItem="Iwr-WI-N1W" secondAttribute="bottom" constant="20" id="lw1-Ov-a8S"/>
+                            <constraint firstItem="r2C-XJ-vLL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nzv-aW-O8N"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="mappingStatusLabel" destination="Iwr-WI-N1W" id="srl-bz-iVt"/>
+                        <outlet property="sceneView" destination="r2C-XJ-vLL" id="Z5N-aC-Ew8"/>
+                        <outlet property="sendMapButton" destination="8PP-oU-GEA" id="BJK-f7-9Ch"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.579710144927539" y="26.116071428571427"/>
+        </scene>
+    </scenes>
+</document>
