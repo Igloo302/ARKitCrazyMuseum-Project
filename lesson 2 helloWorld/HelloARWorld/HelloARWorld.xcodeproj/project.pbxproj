@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03EF98EE231C0BB200B63719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EF98ED231C0BB200B63719 /* AppDelegate.swift */; };
-		03EF98F0231C0BB200B63719 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 03EF98EF231C0BB200B63719 /* art.scnassets */; };
-		03EF98F2231C0BB200B63719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EF98F1231C0BB200B63719 /* ViewController.swift */; };
-		03EF98F5231C0BB200B63719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EF98F3231C0BB200B63719 /* Main.storyboard */; };
-		03EF98F7231C0BB300B63719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03EF98F6231C0BB300B63719 /* Assets.xcassets */; };
-		03EF98FA231C0BB300B63719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EF98F8231C0BB300B63719 /* LaunchScreen.storyboard */; };
+		03C82C29242CD4F500A0113F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C82C28242CD4F500A0113F /* AppDelegate.swift */; };
+		03C82C2B242CD4F500A0113F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C82C2A242CD4F500A0113F /* art.scnassets */; };
+		03C82C2D242CD4F500A0113F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C82C2C242CD4F500A0113F /* ViewController.swift */; };
+		03C82C30242CD4F500A0113F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C82C2E242CD4F500A0113F /* Main.storyboard */; };
+		03C82C32242CD4F700A0113F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C82C31242CD4F700A0113F /* Assets.xcassets */; };
+		03C82C35242CD4F700A0113F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C82C33242CD4F700A0113F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03EF98EA231C0BB200B63719 /* HelloARWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloARWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		03EF98ED231C0BB200B63719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03EF98EF231C0BB200B63719 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		03EF98F1231C0BB200B63719 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		03EF98F4231C0BB200B63719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		03EF98F6231C0BB300B63719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03EF98F9231C0BB300B63719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		03EF98FB231C0BB300B63719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C82C25242CD4F500A0113F /* HelloARWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloARWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C82C28242CD4F500A0113F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03C82C2A242CD4F500A0113F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		03C82C2C242CD4F500A0113F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03C82C2F242CD4F500A0113F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C82C31242CD4F700A0113F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C82C34242CD4F700A0113F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03C82C36242CD4F700A0113F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03EF98E7231C0BB200B63719 /* Frameworks */ = {
+		03C82C22242CD4F500A0113F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03EF98E1231C0BB200B63719 = {
+		03C82C1C242CD4F500A0113F = {
 			isa = PBXGroup;
 			children = (
-				03EF98EC231C0BB200B63719 /* HelloARWorld */,
-				03EF98EB231C0BB200B63719 /* Products */,
+				03C82C27242CD4F500A0113F /* HelloARWorld */,
+				03C82C26242CD4F500A0113F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		03EF98EB231C0BB200B63719 /* Products */ = {
+		03C82C26242CD4F500A0113F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03EF98EA231C0BB200B63719 /* HelloARWorld.app */,
+				03C82C25242CD4F500A0113F /* HelloARWorld.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03EF98EC231C0BB200B63719 /* HelloARWorld */ = {
+		03C82C27242CD4F500A0113F /* HelloARWorld */ = {
 			isa = PBXGroup;
 			children = (
-				03EF98ED231C0BB200B63719 /* AppDelegate.swift */,
-				03EF98EF231C0BB200B63719 /* art.scnassets */,
-				03EF98F1231C0BB200B63719 /* ViewController.swift */,
-				03EF98F3231C0BB200B63719 /* Main.storyboard */,
-				03EF98F6231C0BB300B63719 /* Assets.xcassets */,
-				03EF98F8231C0BB300B63719 /* LaunchScreen.storyboard */,
-				03EF98FB231C0BB300B63719 /* Info.plist */,
+				03C82C28242CD4F500A0113F /* AppDelegate.swift */,
+				03C82C2A242CD4F500A0113F /* art.scnassets */,
+				03C82C2C242CD4F500A0113F /* ViewController.swift */,
+				03C82C2E242CD4F500A0113F /* Main.storyboard */,
+				03C82C31242CD4F700A0113F /* Assets.xcassets */,
+				03C82C33242CD4F700A0113F /* LaunchScreen.storyboard */,
+				03C82C36242CD4F700A0113F /* Info.plist */,
 			);
 			path = HelloARWorld;
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03EF98E9231C0BB200B63719 /* HelloARWorld */ = {
+		03C82C24242CD4F500A0113F /* HelloARWorld */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03EF98FE231C0BB300B63719 /* Build configuration list for PBXNativeTarget "HelloARWorld" */;
+			buildConfigurationList = 03C82C39242CD4F700A0113F /* Build configuration list for PBXNativeTarget "HelloARWorld" */;
 			buildPhases = (
-				03EF98E6231C0BB200B63719 /* Sources */,
-				03EF98E7231C0BB200B63719 /* Frameworks */,
-				03EF98E8231C0BB200B63719 /* Resources */,
+				03C82C21242CD4F500A0113F /* Sources */,
+				03C82C22242CD4F500A0113F /* Frameworks */,
+				03C82C23242CD4F500A0113F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = HelloARWorld;
 			productName = HelloARWorld;
-			productReference = 03EF98EA231C0BB200B63719 /* HelloARWorld.app */;
+			productReference = 03C82C25242CD4F500A0113F /* HelloARWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		03EF98E2231C0BB200B63719 /* Project object */ = {
+		03C82C1D242CD4F500A0113F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = SJTU;
 				TargetAttributes = {
-					03EF98E9231C0BB200B63719 = {
-						CreatedOnToolsVersion = 10.1;
+					03C82C24242CD4F500A0113F = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 03EF98E5231C0BB200B63719 /* Build configuration list for PBXProject "HelloARWorld" */;
+			buildConfigurationList = 03C82C20242CD4F500A0113F /* Build configuration list for PBXProject "HelloARWorld" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 03EF98E1231C0BB200B63719;
-			productRefGroup = 03EF98EB231C0BB200B63719 /* Products */;
+			mainGroup = 03C82C1C242CD4F500A0113F;
+			productRefGroup = 03C82C26242CD4F500A0113F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03EF98E9231C0BB200B63719 /* HelloARWorld */,
+				03C82C24242CD4F500A0113F /* HelloARWorld */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03EF98E8231C0BB200B63719 /* Resources */ = {
+		03C82C23242CD4F500A0113F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03EF98F0231C0BB200B63719 /* art.scnassets in Resources */,
-				03EF98FA231C0BB300B63719 /* LaunchScreen.storyboard in Resources */,
-				03EF98F7231C0BB300B63719 /* Assets.xcassets in Resources */,
-				03EF98F5231C0BB200B63719 /* Main.storyboard in Resources */,
+				03C82C2B242CD4F500A0113F /* art.scnassets in Resources */,
+				03C82C35242CD4F700A0113F /* LaunchScreen.storyboard in Resources */,
+				03C82C32242CD4F700A0113F /* Assets.xcassets in Resources */,
+				03C82C30242CD4F500A0113F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03EF98E6231C0BB200B63719 /* Sources */ = {
+		03C82C21242CD4F500A0113F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03EF98F2231C0BB200B63719 /* ViewController.swift in Sources */,
-				03EF98EE231C0BB200B63719 /* AppDelegate.swift in Sources */,
+				03C82C2D242CD4F500A0113F /* ViewController.swift in Sources */,
+				03C82C29242CD4F500A0113F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		03EF98F3231C0BB200B63719 /* Main.storyboard */ = {
+		03C82C2E242CD4F500A0113F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03EF98F4231C0BB200B63719 /* Base */,
+				03C82C2F242CD4F500A0113F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		03EF98F8231C0BB300B63719 /* LaunchScreen.storyboard */ = {
+		03C82C33242CD4F700A0113F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03EF98F9231C0BB300B63719 /* Base */,
+				03C82C34242CD4F700A0113F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		03EF98FC231C0BB300B63719 /* Debug */ = {
+		03C82C37242CD4F700A0113F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -198,7 +198,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -217,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -227,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		03EF98FD231C0BB300B63719 /* Release */ = {
+		03C82C38242CD4F700A0113F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +258,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -272,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,7 +280,7 @@
 			};
 			name = Release;
 		};
-		03EF98FF231C0BB300B63719 /* Debug */ = {
+		03C82C3A242CD4F700A0113F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -295,12 +293,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sjtu.HelloARWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		03EF9900231C0BB300B63719 /* Release */ = {
+		03C82C3B242CD4F700A0113F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -313,7 +311,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sjtu.HelloARWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -321,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03EF98E5231C0BB200B63719 /* Build configuration list for PBXProject "HelloARWorld" */ = {
+		03C82C20242CD4F500A0113F /* Build configuration list for PBXProject "HelloARWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03EF98FC231C0BB300B63719 /* Debug */,
-				03EF98FD231C0BB300B63719 /* Release */,
+				03C82C37242CD4F700A0113F /* Debug */,
+				03C82C38242CD4F700A0113F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03EF98FE231C0BB300B63719 /* Build configuration list for PBXNativeTarget "HelloARWorld" */ = {
+		03C82C39242CD4F700A0113F /* Build configuration list for PBXNativeTarget "HelloARWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03EF98FF231C0BB300B63719 /* Debug */,
-				03EF9900231C0BB300B63719 /* Release */,
+				03C82C3A242CD4F700A0113F /* Debug */,
+				03C82C3B242CD4F700A0113F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 03EF98E2231C0BB200B63719 /* Project object */;
+	rootObject = 03C82C1D242CD4F500A0113F /* Project object */;
 }

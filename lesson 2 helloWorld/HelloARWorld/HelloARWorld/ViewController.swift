@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  HelloARWorld
 //
-//  Created by Igloo on 2019/9/1.
-//  Copyright © 2019年 SJTU. All rights reserved.
+//  Created by Igloo on 2020/3/26.
+//  Copyright © 2020 SJTU. All rights reserved.
 //
 
 import UIKit
@@ -16,27 +16,27 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Set the view's delegate
-        // 设置代理
         sceneView.delegate = self
+        
         // Show statistics such as fps and timing information
-        // 显示ARKit的统计数据
         sceneView.showsStatistics = true
+        
         // Create a new scene
-        // 使用ship.scn素材创建一个新的场景scene（scn格式文件是一个基于3D建模的文件，这里系统有一个默认的3D飞机）
         let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        
         // Set the scene to the view
-        // 设置scene为SceneKit的当前场景
         sceneView.scene = scene
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
         // Create a session configuration
-        // 使用ARWorldTrackingSessionConfiguration来充分利用所有的运动信息，并给出最佳的结果。
         let configuration = ARWorldTrackingConfiguration()
+
         // Run the view's session
-        // run(_:options)开启ARKit进程，并开始捕捉视频画面。该方法将会让设备请求使用相机，如果用户拒绝该请求，那么ARKit将无法工作。
         sceneView.session.run(configuration)
     }
     
