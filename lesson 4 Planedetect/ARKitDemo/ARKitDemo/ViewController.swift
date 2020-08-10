@@ -41,26 +41,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         #endif
     }
     
-//    func addBox(x:Float = 0.2, y: Float = 0, z:Float = -0.2){
-//        // Define the boxNode
-//        let box = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0)
-//        let boxNode = SCNNode()
-//        boxNode.geometry = box
-//        boxNode.position = SCNVector3(x,y,z)
-//
-//        sceneView.scene.rootNode.addChildNode(boxNode)
-//    }
-//
-//    func addSphere(x:Float = -0.2, y: Float = 0, z:Float = -0.2){
-//        // Define the sphereNode
-//        let sphere = SCNSphere(radius: 0.05)
-//        let sphereNode = SCNNode()
-//        sphereNode.geometry = sphere
-//        sphereNode.position = SCNVector3(x,y,z)
-//        sceneView.scene.rootNode.addChildNode(sphereNode)
-//    }
-    
-    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
@@ -68,10 +48,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
     
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
-        // Place content only for anchors found by plane detection.
+        // 仅放置通过平面检测找到的anchors的内容
         guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
         
-        // Create a SceneKit plane to visualize the plane anchor using its position and extent.
+        // 创建一个SceneKit平面，以使用其位置和范围可视化平面anchor
         let plane = SCNPlane(width: CGFloat(planeAnchor.extent.x), height: CGFloat(planeAnchor.extent.z))
         
         // 修改材质
@@ -81,6 +61,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         material.lightingModel = .physicallyBased
         plane.materials = [material]
         
+        // 创建平面node
         let planeNode = SCNNode(geometry: plane)
         planeNode.simdPosition = float3(planeAnchor.center.x, 0, planeAnchor.center.z)
         

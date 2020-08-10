@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         // playVideo()
         //addModel()
         //addDinosaur()
+        addText()
         
         
         
@@ -58,7 +59,7 @@ class ViewController: UIViewController {
     
         func playVideo(x:Float = 0, y: Float = 0, z:Float = -0.2){
             // 从资源包中抓取文件名为road.mp4的视频
-            guard let videoURL = Bundle.main.url(forResource: "road", withExtension: "mp4") else {return}
+            guard let videoURL = Bundle.main.url(forResource: "road", withExtension: "mp4", subdirectory: "art.scnassets") else {return}
             // 为该视频创建和启动AVPlayer
             let avPlayerItem = AVPlayerItem(url: videoURL)
             let avPlayer = AVPlayer(playerItem: avPlayerItem)
@@ -126,6 +127,22 @@ class ViewController: UIViewController {
         sceneView.scene.rootNode.addChildNode(sphereNode)
     }
     
+    func addText(x:Float = 0, y: Float = 0, z:Float = -0.5) {
+        let text = SCNText(string: "Hello AR World", extrusionDepth: 0)
+        text.font = UIFont(name: "Optima", size: 1)
+
+        let textNode = SCNNode(geometry: text)
+        
+        let fontSize = Float(0.04)
+        textNode.scale = SCNVector3(fontSize, fontSize, fontSize)
+        
+        let (min, max) = textNode.boundingBox
+        textNode.pivot = SCNMatrix4MakeTranslation(min.x + 0.5 * (max.x - min.x), min.y, min.z + 0.5 * (max.z - min.z))
+        textNode.position = SCNVector3(x,y,z)
+        
+        sceneView.scene.rootNode.addChildNode(textNode)
+    }
+    
 
     func addDinosaur(x:Float = -0.2, y: Float = 0, z:Float = -0.2){
         guard let url = Bundle.main.url(forResource: "Chirostenotes", withExtension: "scn", subdirectory: "art.scnassets") else {
@@ -152,6 +169,19 @@ class ViewController: UIViewController {
         }else{
             print("fail")
         }
+    }
+    
+    func addModelTwo(x:Float = -0.2, y: Float = 0, z:Float = -0.2){
+        guard let modelScene = SCNScene(named: "art.scnassets/model.dae") else{
+            print("no file")
+        return}
+        let modelNode = SCNNode()
+        let modelSceneChildNodes = modelScene.rootNode.childNodes // 遍历modelScene的所有子节点，添加到modelNode中
+        for childNode in modelSceneChildNodes {
+            modelNode.addChildNode(childNode)
+        }
+        modelNode.position = SCNVector3(x,y,z)
+        sceneView.scene.rootNode.addChildNode(modelNode)
     }
 }
 

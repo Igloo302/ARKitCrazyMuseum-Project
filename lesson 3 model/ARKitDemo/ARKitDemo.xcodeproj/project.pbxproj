@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03AD95BF231E86B6008C44A3 /* road.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03AD95BE231E86B6008C44A3 /* road.mp4 */; };
 		914529C5231D201A0070A743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914529C4231D201A0070A743 /* AppDelegate.swift */; };
 		914529C7231D201A0070A743 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914529C6231D201A0070A743 /* ViewController.swift */; };
 		914529CA231D201A0070A743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914529C8231D201A0070A743 /* Main.storyboard */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03AD95BE231E86B6008C44A3 /* road.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = road.mp4; sourceTree = "<group>"; };
 		914529C1231D201A0070A743 /* ARKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914529C4231D201A0070A743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		914529C6231D201A0070A743 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				91738685231EA7F9005D56A1 /* art.scnassets */,
 				914529C4231D201A0070A743 /* AppDelegate.swift */,
 				914529C6231D201A0070A743 /* ViewController.swift */,
-				03AD95BE231E86B6008C44A3 /* road.mp4 */,
 				914529C8231D201A0070A743 /* Main.storyboard */,
 				914529CB231D201B0070A743 /* Assets.xcassets */,
 				914529CD231D201B0070A743 /* LaunchScreen.storyboard */,
@@ -236,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				914529CF231D201B0070A743 /* LaunchScreen.storyboard in Resources */,
-				03AD95BF231E86B6008C44A3 /* road.mp4 in Resources */,
 				91738686231EA7F9005D56A1 /* art.scnassets in Resources */,
 				914529CC231D201B0070A743 /* Assets.xcassets in Resources */,
 				914529CA231D201A0070A743 /* Main.storyboard in Resources */,
