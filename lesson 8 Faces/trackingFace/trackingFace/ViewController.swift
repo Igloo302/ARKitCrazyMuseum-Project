@@ -77,7 +77,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let faceGeometry = ARSCNFaceGeometry(device: sceneView.device!)!
         let material = faceGeometry.firstMaterial!
         
-        material.diffuse.contents = #imageLiteral(resourceName: "texture.png") // 纹理图片
+        material.diffuse.contents = #imageLiteral(resourceName: "texture") // 纹理图片
         material.lightingModel = .physicallyBased
         
         let contentNode = SCNNode(geometry: faceGeometry)
